@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    background: linear-gradient(rgba(225, 52, 52 , 0.8) , rgba(236, 94, 94,0.7));
+    box-shadow: 5px 5px 15px black;
+}
+#title{
+    background: linear-gradient(to bottom right , rgba(254, 172, 185, 0.8)
+    ,rgba(236, 178, 178, 0.7));
+}
+.nav-options{
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar-brand{
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    margin-left: 3rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+.nav-link{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    margin-right: 10rem;
+}
+.nav-link:hover{
+    text-shadow: 1px 1px 2px white;
+}
+.home-link{
+    color: white;
+}
+.hero-heading{
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 4rem;
+    line-height: 1.5;
+}
+.download-button{
+    margin: 0px 10px;
+}
+.container-fluid{
+    padding: 3% 10%;
+}
+
+
+/* ===================== FEATURES =================== */
+
+#features{
+    margin:6rem 0rem;
+}
+.features-container{
+    text-align: center;
+}
+.feature-icon{
+    color: #e53875;
+    font-size: 4rem;
+    margin-bottom: 1.2rem;
+}
+/* ============ For Icon Hover ============= */
+.feature-icon:hover{
+    cursor: pointer;
+    color: #26c32b;
+}
+.features-heading{
+    font-weight: 700;
+}
+.features-para{
+    text-align: center;
+    color: #8f8f8f;
+}
+
+/* ==================== Testimonials Section  ====================*/
+
+#testimonials{
+    background: linear-gradient(to bottom right , rgba(254, 172, 185, 0.8)
+    ,rgba(236, 178, 178, 0.7));
+    
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.testimonials-heading{
+    font-size: 2.9rem;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background: linear-gradient(to bottom right , rgba(254, 172, 185, 0.7)
+    ,rgba(236, 178, 178, 0.6));
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-image{
+    width: 12%;
+    margin: 20px 30px;
+}
+
+/* ======================  Pricing Section =========================== */
+#pricing{
+     padding: 10%;
+     text-align: center;
+}
+.pricing-heading{
+    font-size: 3rem;
+}
+.pricing-des{
+    font-size: 1.3rem;
+}
+.pricing-column
+{
+    padding: 2% 2%;
+}
+
+#cta{
+    background: linear-gradient(to bottom right , rgba(254, 172, 185, 0.7)
+    ,rgba(236, 178, 178, 0.6));
+    padding: 7% 10%;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+.cta-heading{
+    margin: 30px;
+}
+#footer{
+    text-align: center;
+    margin: 3%;
+}
+
+.footer-icons{
+    margin: 20px;
+    font-size: 2rem;
+}
+.footer-icons:hover{
+    cursor: pointer;
+    color: #26c32b;
+}
+/* ==================== Media Queries ============================== */
+
+@media (max-width:1024px) {
+    #title{
+        text-align: center;
+    }
+    .hero-image{
+        margin-top: 50px;
+    }
+}
